@@ -29,7 +29,7 @@ void create() {
 		print();
 	}
 	catch (char* e) {
-		std::cout << "EXCEPTION CAGHTCHED:" << e << std::endl;
+		std::cout << "AN EXCEPTION CAUGHT:" << e << std::endl;
 		std::cout << "---TRY AGAIN---" << e << std::endl;
 		create();
 	}
@@ -48,7 +48,7 @@ void insert()
 		print();
 	}
 	catch (char* e) {
-		std::cout << "EXCEPTION CAGHTCHED:" << e << std::endl;
+		std::cout << " AN EXCEPTION CAUGHT:" << e << std::endl;
 		std::cout << "---TRY AGAIN---" << e << std::endl;
 		insert();
 	}
@@ -65,7 +65,7 @@ void remove()
 		print();
 	}
 	catch (char* e) {
-		std::cout << "EXCEPTION CAGHTCHED:" << e << std::endl;
+		std::cout << "AN EXCEPTION CAUGHT:" << e << std::endl;
 		std::cout << "---TRY AGAIN---" << e << std::endl;
 		remove();
 	}
@@ -81,7 +81,7 @@ void searchAt()
 		std::cout << "It is " << list->get(n) << std::endl;
 	}
 	catch (char* e) {
-		std::cout << "EXCEPTION CAGHTCHED:" << e << std::endl;
+		std::cout << "AN EXCEPTION CAUGHT:" << e << std::endl;
 		std::cout << "---TRY AGAIN---" << e << std::endl;
 		searchAt();
 	}
@@ -97,7 +97,7 @@ void search()
 		std::cout << "It is at " << list->findIndex(n) << std::endl;
 	}
 	catch (char* e) {
-		std::cout << "EXCEPTION CAGHTCHED:" << e << std::endl;
+		std::cout << "AN EXCEPTION CAUGHT:" << e << std::endl;
 		std::cout << "---TRY AGAIN---" << e << std::endl;
 		search();
 	}

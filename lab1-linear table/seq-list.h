@@ -130,7 +130,7 @@ inline int SeqList<T>::findIndex(T & input)
 template<class T>
 inline void SeqList<T>::testOverflowByException(unsigned int index)
 {
-	if (index >= lens) throw "INDEX OVERFLOW!";
+	if (((int)index) >= lens) throw "INDEX OVERFLOW!";
 }
 
 template<class T>

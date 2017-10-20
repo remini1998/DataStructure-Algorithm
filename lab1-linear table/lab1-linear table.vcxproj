@@ -23,6 +23,7 @@
     <ProjectGuid>{957B1EEA-E55A-423C-BAFC-0589839C40BC}</ProjectGuid>
     <RootNamespace>lab1lineartable</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.14393.0</WindowsTargetPlatformVersion>
+    <ProjectName>lab1-1-linear table</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
