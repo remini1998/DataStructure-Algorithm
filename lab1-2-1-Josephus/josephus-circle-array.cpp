@@ -25,6 +25,7 @@ void JosephusCircleArray::setNow(int s)
 
 int JosephusCircleArray::next(int m)
 {
+	m--;
 	if (isEnd()) return -1;
 	now += m;
 	now %= length;

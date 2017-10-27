@@ -17,6 +17,7 @@ public:
 	virtual void IJosephusCircle::print();
 
 	static JosephusCircleChain* frist;
+	static JosephusCircleChain* now;
 
 	JosephusCircleChain* nextNode;
 private:

@@ -36,9 +36,10 @@ void testChain()
 			if (n == 0) return;
 			std::cin >> s >> m;
 			IJosephusCircle* jc = new JosephusCircleChain(n);
+			//std::cout << jc->getLength() << std::endl;
 			jc->setNow(s);
-			while (JosephusCircleChain::frist->next(m) != -1) {
-				JosephusCircleChain::frist->print();
+			while (JosephusCircleChain::now->next(m) != -1) {
+				JosephusCircleChain::now->print();
 			}
 			std::cout << "END£¡" << std::endl;
 		}
