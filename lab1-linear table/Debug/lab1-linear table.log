@@ -1,9 +1,8 @@
-﻿  view.cpp
-s:\project\course\datastructure-algorithm\lab1-linear table\seq-list.h(133): warning C4018: “>=”: 有符号/无符号不匹配
-  s:\project\course\datastructure-algorithm\lab1-linear table\seq-list.h(132): note: 编译 类 模板 成员函数 "void SeqList<int>::testOverflowByException(unsigned int)" 时
-  s:\project\course\datastructure-algorithm\lab1-linear table\seq-list.h(60): note: 参见对正在编译的函数 模板 实例化“void SeqList<int>::testOverflowByException(unsigned int)”的引用
-  s:\project\course\datastructure-algorithm\lab1-linear table\seq-list.h(31): note: 编译 类 模板 成员函数 "SeqList<int>::SeqList(unsigned int)" 时
-  s:\project\course\datastructure-algorithm\lab1-linear table\view.cpp(24): note: 参见对正在编译的函数 模板 实例化“SeqList<int>::SeqList(unsigned int)”的引用
-  s:\project\course\datastructure-algorithm\lab1-linear table\view.cpp(10): note: 参见对正在编译的 类 模板 实例化 "SeqList<int>" 的引用
-  lab1-linear table.vcxproj -> S:\project\course\DataStructure-Algorithm\Debug\lab1-linear table.exe
-  lab1-linear table.vcxproj -> S:\project\course\DataStructure-Algorithm\Debug\lab1-linear table.pdb (Partial PDB)
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(387,5): warning MSB8028: 中间目录(Debug\)包含从另一个项目(lab1-linear table.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
+  view.cpp
+  seq-list.cpp
+  main.cpp
+  正在生成代码...
+  LINK : 没有找到 D:\projects\DataStructure-Algorithm\Debug\lab1-1-linear table.exe 或上一个增量链接没有生成它；正在执行完全链接
+  lab1-linear table.vcxproj -> D:\projects\DataStructure-Algorithm\Debug\lab1-1-linear table.exe
+  lab1-linear table.vcxproj -> D:\projects\DataStructure-Algorithm\Debug\lab1-1-linear table.pdb (Partial PDB)

@@ -51,7 +51,7 @@ void testChain()
 }
 
 int main() {
-	//testArry();
-	testChain();
+	testArry();
+	//testChain();
 	return 0;
 }
