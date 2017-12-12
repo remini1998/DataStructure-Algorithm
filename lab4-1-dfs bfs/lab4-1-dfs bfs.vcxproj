@@ -20,9 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{3056DFB6-C5B7-4E4B-A6B6-51A332157169}</ProjectGuid>
+    <ProjectGuid>{B5FF576B-214B-4ACE-A7C7-8D96CCEF2CAE}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>lab34线索化二叉树</RootNamespace>
+    <RootNamespace>lab41dfsbfs</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.14393.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,11 +139,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="inorder-traversal-binary-tree.h" />
-    <ClInclude Include="tree-node.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="main.cpp" />
+    <ClInclude Include="main.cpp" />
+    <ClInclude Include="map-link.h" />
+    <ClInclude Include="map-node.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
