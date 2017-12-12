@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26228.9
+VisualStudioVersion = 15.0.27004.2008
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DataStructure-Algorithm", "DataStructure-Algorithm\DataStructure-Algorithm.vcxproj", "{9434579E-ED36-4F41-9EB0-ADC9BE05E0A4}"
 EndProject
@@ -25,7 +25,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lab3-3-encode", "lab3-3-enc
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lab3-4-线索化二叉树", "lab3-4-线索化二叉树\lab3-4-线索化二叉树.vcxproj", "{3056DFB6-C5B7-4E4B-A6B6-51A332157169}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lab4-1-dfs bfs", "lab4-1-dfs bfs\lab4-1-dfs bfs.vcxproj", "{B5FF576B-214B-4ACE-A7C7-8D96CCEF2CAE}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lab4-1-bfp dpf", "lab4-1-bfp dpf\lab4-1-bfp dpf.vcxproj", "{66A60621-9550-4F99-BBB5-B691205630AE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -123,16 +123,19 @@ Global
 		{3056DFB6-C5B7-4E4B-A6B6-51A332157169}.Release|x64.Build.0 = Release|x64
 		{3056DFB6-C5B7-4E4B-A6B6-51A332157169}.Release|x86.ActiveCfg = Release|Win32
 		{3056DFB6-C5B7-4E4B-A6B6-51A332157169}.Release|x86.Build.0 = Release|Win32
-		{B5FF576B-214B-4ACE-A7C7-8D96CCEF2CAE}.Debug|x64.ActiveCfg = Debug|x64
-		{B5FF576B-214B-4ACE-A7C7-8D96CCEF2CAE}.Debug|x64.Build.0 = Debug|x64
-		{B5FF576B-214B-4ACE-A7C7-8D96CCEF2CAE}.Debug|x86.ActiveCfg = Debug|Win32
-		{B5FF576B-214B-4ACE-A7C7-8D96CCEF2CAE}.Debug|x86.Build.0 = Debug|Win32
-		{B5FF576B-214B-4ACE-A7C7-8D96CCEF2CAE}.Release|x64.ActiveCfg = Release|x64
-		{B5FF576B-214B-4ACE-A7C7-8D96CCEF2CAE}.Release|x64.Build.0 = Release|x64
-		{B5FF576B-214B-4ACE-A7C7-8D96CCEF2CAE}.Release|x86.ActiveCfg = Release|Win32
-		{B5FF576B-214B-4ACE-A7C7-8D96CCEF2CAE}.Release|x86.Build.0 = Release|Win32
+		{66A60621-9550-4F99-BBB5-B691205630AE}.Debug|x64.ActiveCfg = Debug|x64
+		{66A60621-9550-4F99-BBB5-B691205630AE}.Debug|x64.Build.0 = Debug|x64
+		{66A60621-9550-4F99-BBB5-B691205630AE}.Debug|x86.ActiveCfg = Debug|Win32
+		{66A60621-9550-4F99-BBB5-B691205630AE}.Debug|x86.Build.0 = Debug|Win32
+		{66A60621-9550-4F99-BBB5-B691205630AE}.Release|x64.ActiveCfg = Release|x64
+		{66A60621-9550-4F99-BBB5-B691205630AE}.Release|x64.Build.0 = Release|x64
+		{66A60621-9550-4F99-BBB5-B691205630AE}.Release|x86.ActiveCfg = Release|Win32
+		{66A60621-9550-4F99-BBB5-B691205630AE}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {83210CAE-8BAD-465D-A454-BBCE070FA9DB}
 	EndGlobalSection
 EndGlobal
