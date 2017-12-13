@@ -1,6 +1,9 @@
 #include <iostream>
 #include <string.h>
+#include <queue>
 #include "map-node.h"
+
+using namespace std;
 
 #define SITES_MAX 100
 #define STRING_MAX 10000
@@ -13,11 +16,11 @@ typedef struct {
 int road[SITES_MAX][SITES_MAX];
 bool hasPassed[SITES_MAX];
 Site sites[SITES_MAX];
-int siteNum = 0;
+int sitesNum = 0;
 
 void setInfo(int index, char* name, char* intro) {
-	strcpy(sites[index].name, name);
-	strcpy(sites[index].intro, intro);
+	strcpy_s(sites[index].name, name);
+	strcpy_s(sites[index].intro, intro);
 }
 
 void resetPassed() {
@@ -40,7 +43,7 @@ void fillTest() {
 	resetPassed();
 	resetRoad();
 
-	siteNum = 9;
+	sitesNum = 9;
 
 	setInfo(0, "第二食堂（在拆）", "麻辣香锅，再也没有了QAQ");
 	setInfo(1, "新天天餐厅（竣工）", "新的天天餐厅，超赞！");
@@ -68,7 +71,43 @@ void fillTest() {
 
 }
 
+void dfs(int index, void (*func)(int)) {
+	hasPassed[index] = true;
+	func(index);
+	for (int a = 0; a < sitesNum; a++)
+		if (road[index][a] > 0 && !hasPassed[a])
+			dfs(a, func);
+}
+
+
+
+void bfs(int index, void(*func)(int)) {
+	if (hasPassed[index]) return;
+	static queue<int> q;
+	hasPassed[index] = true;
+	func(index);
+	for (int a = 0; a < sitesNum; a++)
+		if (road[index][a] > 0 && !hasPassed[a])
+			q.push(a);
+	while (!q.empty()) {
+		int a = q.front();
+		q.pop();
+		bfs(a, func);
+	}
+
+}
+
+
+void show(int index) {
+	cout << "已经过" << sites[index].name << endl;
+}
 
 int main() {
+	fillTest();
+	cout << "DFS：" << endl;
+	dfs(0, show);
+	resetPassed();
+	cout << "BFS：" << endl;
+	bfs(0, show);
 	return 0;
 }
