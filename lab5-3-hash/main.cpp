@@ -5,9 +5,10 @@ using namespace std;
 
 int hashStorage[HASH_MAX];
 
-void generalHash() {
+void generalHash(int seed) {
 	for (int a = 0; a < HASH_MAX; a++)
 		hashStorage[a] = -1;
+	srand(seed);
 	for (int a = 0; a < HASH_MAX; a++) {
 		int num = rand() % HASH_MAX;
 		int nowIndex = num / 2;
@@ -20,7 +21,10 @@ void generalHash() {
 }
 
 int main() {
-	generalHash();
+	int seed;
+	cout << "请输入数据生成种子：";
+	cin >> seed;
+	generalHash(seed);
 	int index;
 	while (true)
 	{
