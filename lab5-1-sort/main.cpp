@@ -26,6 +26,7 @@ void find(int x) {
 
 int main() {
 	int x;
+	cout << "请输入您要查找的数";
 	cin >> x;
 	find(x);
 	return 0;
