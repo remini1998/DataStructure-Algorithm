@@ -1,3 +1,1 @@
-﻿  main.cpp
-s:\project\course\datastructure-algorithm\lab2-4-formala\main.cpp(34): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
-  lab2-4-Formala.vcxproj -> S:\project\course\DataStructure-Algorithm\x64\Debug\lab2-4-Formala.exe
+﻿  lab2-4-Formala.vcxproj -> S:\project\course\DataStructure-Algorithm\x64\Debug\lab2-4-Formala.exe

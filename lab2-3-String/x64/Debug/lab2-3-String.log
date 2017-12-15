@@ -1,3 +1,1 @@
-﻿  main.cpp
-s:\project\course\datastructure-algorithm\lab2-3-string\main.cpp(5): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
-  lab2-3-String.vcxproj -> S:\project\course\DataStructure-Algorithm\x64\Debug\lab2-3-String.exe
+﻿  lab2-3-String.vcxproj -> S:\project\course\DataStructure-Algorithm\x64\Debug\lab2-3-String.exe

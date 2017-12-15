@@ -39,4 +39,5 @@ int main() {
 	cout << "·Çµİ¹éÖĞĞò±éÀú£º";
 	Traversal<int>(tree, &output);
 	cout << endl;
+	return 0;
 }
